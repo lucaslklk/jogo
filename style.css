@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+}
+
+h1{
+
+font-size: 2.5rem;
+
+
+}
+
+
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+    border: solid  black 5px;
+}
+
+.o {
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "\26BD";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.x {
+    position: relative;
+}
+
+.x:after {
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+.botao {
+    position: relative;
+    width: 400px;
+    height: 130px;
+    margin-top: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 2rem;
+    border: solid  black 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
